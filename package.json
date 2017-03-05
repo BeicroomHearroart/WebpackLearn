@@ -1,0 +1,25 @@
+{
+  "name": "webpack_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeicroomHearroart/WebpackLearn.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Beic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeicroomHearroart/WebpackLearn/issues"
+  },
+  "homepage": "https://github.com/BeicroomHearroart/WebpackLearn#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Webpack Sample Project</title>
+    <script>
+        var name = "The Window";
+        var object = {
+            name: "My Object",
+        　　 getNameFunc: function () {
+                //var self = this;
+                var p = 1;
+                return function () {
+                    return this.name;
+                };
+        　　 }
+    　　};
+    　　alert(object.getNameFunc()());
+    </script>
+</head>
+<body>
+    <div id='root'>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
